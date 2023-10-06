@@ -1,0 +1,56 @@
+/* Estilos para la estructura del contador */
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.controls {
+    display: flex;
+    align-items: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.button {
+    background-color: #fdeaf2; /* Color de fondo de los botones */
+    border: 1px solid #fdeaf2; /* Borde con color de fondo */
+    border-radius: 5px; /* Bordeado medio redondeado */
+    padding: 5px 10px; /* Espaciado interior de los botones */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición de color suave */
+}
+
+.button:hover {
+    background-color: #ff69b4; /* Cambia el color de fondo al pasar el cursor */
+    border-color: #ff69b4; /* Cambia el color del borde al pasar el cursor */
+}
+
+.number {
+    font-size: 24px; /* Tamaño de fuente para el número */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el botón "Agregar al carrito" */
+button.addToCart {
+    background-color: #fdeaf2; /* Color de fondo del botón */
+    border: 1px solid #fdeaf2; /* Borde con color de fondo */
+    border-radius: 5px; /* Bordeado medio redondeado */
+    padding: 10px 20px; /* Espaciado interior del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición de color suave */
+    text-align: center;
+    width: 100%;
+    margin-top: 10px; /* Espacio superior para separar del div de botones */
+}
+
+button.addToCart:disabled {
+    background-color: #ccc; /* Color de fondo del botón deshabilitado */
+    border-color: #ccc; /* Borde con color de fondo deshabilitado */
+    cursor: not-allowed; /* Cursor de "no permitido" para botón deshabilitado */
+}
+
+button.addToCart:hover {
+    background-color: #ff69b4; /* Cambia el color de fondo al pasar el cursor */
+    border-color: #ff69b4; /* Cambia el color del borde al pasar el cursor */
+    color: white; /* Cambia el color del texto al pasar el cursor */
+}

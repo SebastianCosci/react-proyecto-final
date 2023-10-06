@@ -1,0 +1,85 @@
+/* Estilos para el componente ItemDetail */
+.CardItem {
+    background-color: white;
+    border: 6px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: border-color 0.3s ease;
+    margin-bottom: 2rem; /* Agrega espacio entre los productos */
+  }
+  
+  .CardItem:hover {
+    border-color: pink;
+  }
+  
+  .ItemHeader {
+    font-size: 1.5rem;
+    color: #1a202c;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .ItemImg {
+    width: 400px;
+    height: 400px; /* Ajusta la altura máxima según tus necesidades */
+    object-fit: cover;
+    margin: 1rem auto; /* Centra la imagen horizontalmente y agrega espacio superior */
+  }
+  
+  .Info {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    margin: 0.5rem 0;
+  }
+  
+  .ItemFooter {
+    padding: 1rem;
+  }
+  
+  /* Estilos para el botón de ItemCount */
+  .quantity-control button {
+    background-color: #f4f0ea;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-control button:hover {
+    background-color: rosybrown;
+    color: white;
+  }
+  
+  .quantity-control span {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .buttomproduct button {
+    background-color: #f4f0ea;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttomproduct button:hover {
+    background-color: rosybrown;
+    color: white;
+  }
+  

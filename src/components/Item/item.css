@@ -1,0 +1,60 @@
+/* Estilos para el componente Item */
+.CardItem {
+    background-color: white;
+    border: 6px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: border-color 0.3s ease;
+  }
+  
+  .CardItem:hover {
+    border-color: pink;
+  }
+  
+  .ItemHeader {
+    font-size: 1.5rem;
+    color: #1a202c;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .ItemImg10 {
+    width: 400px;
+    max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+    object-fit: cover;
+    margin-top: 1rem;
+  }
+  
+  .Info {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    margin: 0.5rem 0;
+  }
+  
+  .ItemFooter {
+    padding: 1rem;
+  }
+  
+  .Option {
+    background-color: #f4f0ea;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Option:hover {
+    background-color: rosybrown;
+    color: white;
+  }
+  

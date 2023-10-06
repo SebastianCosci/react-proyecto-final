@@ -1,0 +1,65 @@
+/* cart.css */
+
+/* Estilos para centrar el contenido en el centro de la página */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Estilos para los botones "Vaciar carrito" y "checkout" */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+    
+  /* Estilo para el enlace "Productos" */
+  .productcarrito {
+    background-color: #fdf1f1; /* Color de fondo */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* Transición al cambiar de color de fondo en hover */
+  }
+  
+  /* Estilo en hover para el enlace "Productos" */
+  .productcarrito:hover {
+    background-color: #fce8f0; /* Nuevo color de fondo en hover */
+  }
+  
+  /* Estilo para los contenedores de los productos en el carrito */
+  .CartItem {
+    background-color: #ecf0f1; /* Color de fondo de los elementos del carrito */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo para los botones de eliminar producto */
+  .removeButton {
+    background-color: #fdeaf2; /* Color de fondo para el botón de eliminar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición al cambiar de color de fondo en hover */
+  }
+  
+  /* Estilo en hover para los botones de eliminar producto */
+  .removeButton:hover {
+    background-color: #c0392b; /* Nuevo color de fondo en hover */
+  }
+  
+  .bordelink{
+    border: 1px solid #000;
+  }

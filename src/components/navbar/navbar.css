@@ -1,0 +1,58 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    background-color: #fdf1f1; /* Color de fondo rosado claro */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 10px 20px; /* Espaciado interior para el contenido */
+}
+
+.brand {
+    width: 250px;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px; /* Espacio entre botones */
+}
+
+.nav-button {
+    background-color: transparent; /* Fondo transparente inicial */
+    border: none; /* Quita el borde de los botones */
+    font-size: 25px; /* Tamaño de fuente para los botones */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Transición de color suave en 0.3 segundos */
+    position: relative; /* Para posicionar el pseudo-elemento */
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.nav-button::before {
+    content: ""; /* Agrega un contenido vacío para el pseudo-elemento */
+    display: inline-block;
+    width: 6px; /* Tamaño de la pelotita blanca */
+    height: 6px;
+    background-color: white; /* Color de la pelotita blanca */
+    border-radius: 50%; /* Hace que la pelotita sea redonda */
+    position: absolute;
+    left: -20px; /* Coloca la pelotita a la izquierda del texto */
+    top: 50%; /* Centra verticalmente la pelotita */
+    transform: translateY(-50%); /* Alinea verticalmente la pelotita */
+    transition: background-color 0.5s ease, transform 0.5s ease; /* Transición de color y posición */
+}
+
+.nav-button:hover {
+    background-color: #fdb4bf; /* Color de fondo al pasar el cursor */
+    color: black; /* Color de texto al pasar el cursor */
+    font-weight: bold; /* Hace el texto más fuerte al pasar el cursor */
+}
+
+.nav-button:hover::before {
+    background-color: #fdb4bf; /* Cambia el color de la pelotita al pasar el cursor */
+    transform: translateY(-50%) scale(1.2); /* Escala la pelotita al pasar el cursor */
+}

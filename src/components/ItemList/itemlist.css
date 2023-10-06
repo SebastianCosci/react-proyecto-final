@@ -1,0 +1,7 @@
+/* Estilos para el componente ItemList */
+.ListGroup {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Mostrar 4 columnas por fila */
+    gap: 2rem; /* Espacio entre los elementos */
+  }
+  
